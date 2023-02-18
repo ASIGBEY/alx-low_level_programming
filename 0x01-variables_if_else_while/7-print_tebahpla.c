@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib>
 /**
- * main - main block
- * 
+ * main - main block 
  * Return: Always 0 (Success)
  */
 int main(void)
