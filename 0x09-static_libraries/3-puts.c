@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _puts - function that puts s
+ * @s: input
+ * Return: nothing
  */
 void _puts(char *s)
 {
