@@ -4,9 +4,10 @@
 /**
  * _puts - function that puts s
  * @s: input
- * Return: nothing
+ * Return: _puts(s)
  */
 void _puts(char *s)
 {
 	_puts(s);
+	return _puts(s);
 }
