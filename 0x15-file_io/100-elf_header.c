@@ -1,3 +1,4 @@
+#include "main.h"
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -56,7 +57,7 @@ void print_magic(unsigned char *e_ident)
 	{
 		printf("%02x", e_ident[index]);
 
-		if (index == EI_NIDENT - n_pos)
+		if (index == EI_NIDENT n_neg)
 			printf("\n");
 		else
 			printf(" ");
